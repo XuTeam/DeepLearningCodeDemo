@@ -32,7 +32,7 @@ for version in [1,2,3,4,5]:
         lr = 0.1**i_lr 
         for wd in [0.1,0.05,0.01,0.005,0.001]:
             for batch_size in [64,128,256,512]: 
-                commands += [command.format(lr,wd, version,batch_size)]
+                commands += [command.format(lr,wd,batch_size,version)]
 commands = [shlex.split(comm) for comm in commands]
 
 
