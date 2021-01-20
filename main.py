@@ -75,6 +75,5 @@ def main():
     f = open(training_file_name, 'w')
     f.close()
 
-    exit()
 if __name__ == '__main__':
     main()
