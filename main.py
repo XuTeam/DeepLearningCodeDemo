@@ -73,6 +73,6 @@ def main():
 
     # example of files for training  
     f = open(training_file_name, 'a')
-
+    f.close()
 if __name__ == '__main__':
     main()
