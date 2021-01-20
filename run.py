@@ -37,7 +37,7 @@ commands = [shlex.split(comm) for comm in commands]
 
 
 # List all the GPUs you have
-ids_cuda = [0,1,2,3]
+ids_cuda = [0,1,2,3,4,5,6]
 
 ###############################################################
 

@@ -72,7 +72,9 @@ def main():
     lr_file_name = args.name + '.lr'
 
     # example of files for training  
-    # f = open(training_file_name, 'w')
-    # f.close()
+    f = open(training_file_name, 'w')
+    f.close()
+
+    exit()
 if __name__ == '__main__':
     main()
