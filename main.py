@@ -9,10 +9,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from utils.data import get_data_loader
-from utils.env import generate_env, get_args, check_if_results_existed, check_if_file_existed, create_dir
-from utils.env import train, validate, save_checkpoint
-from models.mgnet import MG
+
+
 # it makes dgx1 available for plot.
 def get_args():
     parser = argparse.ArgumentParser(description='A general training enviroment for different learning methods.')
