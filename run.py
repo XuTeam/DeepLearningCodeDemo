@@ -27,8 +27,8 @@ command = 'python main.py --cuda --method=sgd --data cifar10 --epochs=300 --arch
 
 # List all the parameters you are going to tune
 commands = []
-for version in [1,2,3]:
-    for i_lr in range(1,2):
+for version in [1,2,3]: 
+    for i_lr in range(1,5):
         lr = 0.1**i_lr 
         for wd in [0.1,0.05,0.01]:
             for batch_size in [64,128]: 
